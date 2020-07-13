@@ -1,0 +1,47 @@
+Here is my project link:
+
+https://codepen.io/gabrielhenton/pen/ZEQRYpv
+
+
+QUESTIONS WITH MY ANSWERS:
+
+1. What is Semantic HTML? ANSWER: 
+    2. What is HTML used for? HYPER TEXT MARKUP LANGUAGE IS USED FOR THE STRUCTURE OF WEB PAGES AND OTHER CONTENT. IT CONSISTS OF ELEMENTS LAID OUT LOGICALLY- SOME ARE NESTED AND SOME NOT, AND CONTENT IS PLACED INSIDE THE TAGS.
+    3. What is an attribute and where do we put it? AN ATTRIBUTE PROVIDES ADDITIONAL INFORMATION ABOUT AN HTML ELEMENT AND IS ALWAYS IN THE OPENING TAG. EXAMPLE: HREF IS AN ATTRIBUTE THAT TELLS WHICH WEB PAGE THE ANCHOR TAG SHOULD BE LINKING TO.
+    4. What is the h1 tag used for? How many times should I use it on a page? THE H1 TAG DEFINES THE MOST IMPORTANT HEADING AND USUALLY IS ONLY USED ONCE ON THE PAGE. IT IS BY DEFAULT THE LARGEST OF THE H TAGS.
+    5. Name two tags that have required attributes INPUT, SELECT
+    6. What do we put in the head of our HTML document? METADATA, SUCH AS WHAT CSS PAGE TO LINK TO.
+    7. What is an id? AN ID IS AN ATTRIBUTE THAT SPECIFIES A UNIQUE ID FOR AN HTML ELEMENT. THIS CAN THEN BE USED TO TARGET ONLY THIS ELEMENT IN CSS. 
+    8. What elements can I add an id to? AN ID IS ONLY INTENDED TO BE USED ON ONE ELEMENT.
+    9. How many times can I use the same id on a page? ONCE
+    10. What is a class? A CLASS IS AN HTML ATTRIBUTE THAT MEANT FOR APPLYING TO MULTIPLE ELEMENTS. CSS CAN BE APPLIED TO MULTIPLE ELEMENTS AT ONCE THIS WAY.
+    11. What elements can I add a class to? YOU CAN ADD THIS ATTRIBUTE TO ANY ELEMENT WHERE IT MAKES SENSE THAT YOU WOULD ALSO APPLY THIS CLASS OTHER ELEMENTS.
+    12. How many times can I use the same class on a page? YOU CAN USE THIS AS MANY TIMES AS YOU WANT FOR ELEMENTS YOU WANT TO STYLE THE SAME.
+    13. How do I get my link to open in a new tab? TARGET="_BLANK"
+    14. What is the alt attribute in the image tag used for? THE REQUIRED ALT ATTRIBUTE SPECIFIES AN ALTERNATE TEXT FOR AN IMAGE, IF THE IMAGE CANNOT BE DISPLAYED.
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div? A SECTION IS SEMANTIC; A DIV IS NOT.
+    17. What is CSS used for? CSS IS USED FOR STYLING THE PAGE THE WAY YOU WANT TO LAY IT OUT AND MAKE IT LOOK AND "FEEL".
+    18. How to we select an element? Example - every h2 on the page ANSWER: H2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. USE A CLASS WHEN STYING MULTIPLE ELEMENTS WITH ONE CSS RULE AND AN ID WHEN THAT ELEMENT IS UNIQUE ON THE PAGE.
+    20. How do we select classes in CSS? ANSWER: .
+    21. How do we select a p element with a single class of “human”? ANSWER: .human  
+    22. What is a parent child selector? When would this be useful? THIS SELECTS ALL CHILDREN OF A CERTAIN PARENT CLASS FOR EXAMPLE. YOU CAN HAVE MORE PRECISE CONTROL THIS WAY.
+    23. How do you select all links within a div with the class of sidebar?
+.sidebar > a
+    24. What is a pseudo selector? THESE ARE BUILT-IN. From MDN: "A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it"
+    25. What do we use the change the spacing between lines? USE THE LINE-HEIGHT CSS PROPERTY. 
+    26. What do we use to change the spacing between letters? USE THE LETTER-SPACING CSS PROPERTY.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? USE THE TEXT-TRANSFORM PROPERTY OF CSS AND THE VALUE OF EITHER UPPERCASE, LOWERCASE, OR CAPITALIZE. 
+    28. How do I add a 1px border around my div that is dotted and black?
+div {border: 1px dotted #000};
+    29. How do I select everything on the page? ANSWER: *
+    30. How do I write a comment in CSS? /* COMMENT GOES HERE */
+    31. How do I find out what file I am in, when I am using the command line? WHAT DO YOU MEAN? WE HAVEN'T COVERED VI. YOU CAN FIND WHAT "DIRECTORY" YOU ARE IN BY TYPING "PWD".
+    32. Using the command line - how do I see a list of files/folders in my current folder? ANSWER: ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? ANSWER: rm [filename]
+    34. Why should I use version control? ANSWER: Easier to work with teams, stay organized, and go back in time if necessary. 
+    35. How often should I commit to github? EVERY TIME YOU MAKE A SIGNIFICANT CHANGE. 
+    36. What is the command we would use to push our repo up to github? PUSH ORIGIN [FIRSTNAME-LASTNAME]
+    37. Walk me through Lambda's git flow. FORK A REPO, CLONE IT, CHECKOUT NEW BRANCH, COMMIT, PUSH, THEN ON GITHUB, MAKE A PULL REQUEST SO IT CAN BE REVIEWED THEN MERGED WITH THE REPO. 
+
